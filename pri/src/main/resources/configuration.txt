@@ -1,0 +1,29 @@
+### Crawler4j ###
+######################
+
+- Set up a folder for the crawler 
+
+cd /Users
+
+sudo mkdir PRI
+
+sudo chmod 777 PRI
+
+
+
+### Selenium tests ###
+######################
+
+- Copy the chromeDriver to /bin
+
+
+- In /bin folder , execute as root (su)
+
+
+cat <<EOF>chromedriververbose
+echo "running chromedriver --verbose \$*"
+\$(dirname \$0)/chromedriver --verbose \$*
+EOF
+chmod +x chromedriververbose
+
+- Refer /bin/chromedriververbose as your driver

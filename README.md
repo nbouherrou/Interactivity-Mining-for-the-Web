@@ -14,7 +14,7 @@ Members :
 The main goal of this research and innovation project is to crawl websites with different profiles. At the beginning, the program functions as a crawler, then stores, in a NoSQL Graph Database, characteristics related to Javascript such as AJAX requests or Javascript events. We use thereafter the data via an API to classify these websites according to their characteristics and other metrics.
 
 Keywords :
-Java8 — Data Mining — Selenium — NoSQL — ChromeDriver
+Java8 — Data Mining — Selenium — NoSQL — Neo4J — ChromeDriver
 
 ## How to use it ?
 ---
